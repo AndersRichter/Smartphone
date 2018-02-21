@@ -1,0 +1,44 @@
+table {
+    border: 5px black;
+    margin: auto;
+    background-color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+td {
+    width: 150px;
+    position: relative;
+    height: 31px;
+}
+tr:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+.nosort {
+    background-color: white;
+    cursor: default;
+}
+th {
+    width: 300px;
+}
+body {
+    background-color: silver;
+}
+input {
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+.sum {
+    font-size: 30px;
+}
+.content {
+    text-align: left;
+    padding-left: 3px;
+}
+.reset {
+    width: 300px;
+    position: inherit;
+}
